@@ -16,8 +16,8 @@ public class Principal
         for(int i = 0 ; i<200; i++){
             System.out.println("Indice: "+ (i+1));
             if(falsa == 9){
-                // metera una moneda fayuca
-                System.out.println("Se ingreso una moneda fayuca");
+                // metera una moneda falsa
+                System.out.println("Se ingreso una moneda falsa");
                 bolsa[i] = new Coin((float)0.9875, 2.415);
                 falsa = 0;
             } else {
